@@ -1,5 +1,5 @@
 const axios = require('axios')
-const Statistic = require('./models/statistic')
+const Statistic = require('../models/statistic')
 
 const mapIdToNames = async () => {
     let champions = await axios.get('http://localhost:3001/api/champions')
