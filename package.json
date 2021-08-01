@@ -10,7 +10,6 @@
     "populate": "node populate.js",
     "build:ui":"rm -r build && cd ../lol-frontend && npm run build && cp -R ./build ../lolcounter/build"
   },
-  "proxy": "http://localhost:3000",
   "author": "",
   "license": "ISC",
   "dependencies": {
