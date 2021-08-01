@@ -7,8 +7,10 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "populate": "node populate.js"
+    "populate": "node populate.js",
+    "build:ui":"rm -r build && cd ../lol-frontend && cp -R ./build ../lolcounter/build"
   },
+  "proxy": "http://localhost:3000",
   "author": "",
   "license": "ISC",
   "dependencies": {
